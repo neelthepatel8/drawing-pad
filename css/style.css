@@ -1,0 +1,17 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+  padding: 70px;
+}
+.container {
+  grid-template-columns: repeat(16, 2fr);
+  grid-template-rows: repeat(16, 2fr);
+  width: 576px;
+  height: 576px;
+  display: inline-grid;
+  margin: 0 auto;
+}
+
+.grid-box {
+  border: 0.1px solid black;
+}
